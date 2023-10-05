@@ -10,11 +10,11 @@ token = config("SEC_API_TOKEN")
 json_request_data = {
     "query": {
         "query_string": {
-            "query": "formType:\"13F\" AND holdings.cik:1318605"
+            "query": "formType:\"13F\" AND holdings.cik:1067983"
         }
     },
     "from": "0",
-    "size": "20",
+    "size": "10000",
     "sort": [{"filedAt": {"order": "desc"}}]
 }
 
