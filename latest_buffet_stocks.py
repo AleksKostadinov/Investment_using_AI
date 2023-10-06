@@ -14,7 +14,7 @@ json_request_data = {
         }
     },
     "from": "0",
-    "size": "10000",
+    "size": "1000",
     "sort": [{"filedAt": {"order": "desc"}}]
 }
 
