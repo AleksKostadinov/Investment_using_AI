@@ -5,7 +5,7 @@ from decouple import config
 conn = psycopg2.connect(
     host=config('POSTGRES_HOST'),
     port="5432",
-    database="analizing13f20230630",
+    database="db13f2023",
     user=config('POSTGRES_USER'),
     password=config('POSTGRES_PASSWORD')
 )
